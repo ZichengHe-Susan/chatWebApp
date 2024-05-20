@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { setDoc, updateDoc, doc, collection, query, where, getDocs, getDoc, serverTimestamp} from 'firebase/firestore';
-import { db } from '../firebase';
+import { db } from '../../firebase.js';
 import { AuthContext } from '../context/AuthContext';
 
 const Search = () => {

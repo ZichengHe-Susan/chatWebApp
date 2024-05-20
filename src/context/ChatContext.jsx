@@ -1,5 +1,5 @@
 import React, { useReducer, createContext, useState, useEffect, useContext } from 'react';
-import { auth } from '../firebase';
+import { db } from '../../firebase.js';
 import { onAuthStateChanged } from 'firebase/auth';
 import { AuthContext } from './AuthContext';
 
